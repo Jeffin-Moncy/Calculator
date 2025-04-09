@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+.calculator {
+    background: grey;
+    padding: 30px 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+#display {
+    width: 87%;
+    height: 50px;
+    font-size: 1.8rem;
+    text-align: right;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 8px;
+    justify-content: center;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    text-emphasis: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ddd;
+    
+}
+
+.symbol {
+    background-color: black;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #bbb;
+}
+
+button:nth-child(16) {
+    background-color: red;
+    color: white;
+}
+
+h1{
+    margin: 0px 0px 10px 0px;
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    margin: 0;
+  }
+  
+  .calculator {
+    background: grey;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  #display {
+    width: 97%;
+    height: 45px;
+    font-size: 1.4rem;
+    text-align: right;
+    margin-bottom: 15px;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  
+  button {
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #aaa;
+    transition: all 0.1s ease;
+  }
+  
+  button:hover {
+    background: #bbb;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+    box-shadow: 1px 1px 3px #888;
+  }
+  
+  .symbol {
+    background: black;
+    color: #fff;
+  }
+  
+  button:nth-child(16) {
+    background: red;
+    color: white;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+   */
